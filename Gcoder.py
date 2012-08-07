@@ -57,7 +57,6 @@ def gap_listing (sequence,gap_symbol):
 
 def gap_binary_generator (sequence,gap_list):
 	""" This function contains the algorithm to construct the binary state block for the indel events """
-	inside_gap = "[a-z]?\-+[a-z]?"
 	for cur_gap in gap_list:
 		cur_gap_start,cur_gap_end = cur_gap
 		if sequence[cur_gap_start:cur_gap_end] == "-"*(cur_gap_end - cur_gap_start) and sequence[cur_gap_start-1] != "-" and sequence[cur_gap_end] != "-":
