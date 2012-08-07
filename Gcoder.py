@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # GCoder v1.0
 # Author: Diogo N. Silva
-# Last updated: 26/09/2011
+# Last updated: 07/08/2012
 # GCoder is a simple tool to convert indel events in an alignment of molecular sequences into a binary state block that can be interpreted by MrBayes (or any other software that allows for binary/restriction data). Currently, only Nexus format is supported as an output format.
 
 #  Copyright 2012 Diogo N Silva <diogo@arch>
